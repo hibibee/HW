@@ -1,13 +1,13 @@
 *** Settings ***
-Resource    /Users/Jedit/Documents/CAMT_robot/homework/import.resource
-Variables   /Users/Jedit/Documents/CAMT_robot/homework/EEEEEEEEDATA.yml
-Variables   /Users/Jedit/Documents/CAMT_robot/homework/price.yml
+Resource    /User/Documents/pop/RobotHomework/import.resource
+Variables   /User\Documents/pop/RobotHomework/EEEEEEEEDATA.yml
+Variables   /User/Documents/pop/RobotHomework/price.yml
 
 Test Template    test case
 
 *** Test Cases ***    csv
 
-E   /Users/Jedit/Documents/CAMT_robot/homework/E.csv
+E   /User/Documents/pop/RobotHomework/E.csv
 
 *** Keywords ***
 Test case
